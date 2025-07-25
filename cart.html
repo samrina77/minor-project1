@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koko Crush</title>
+<script src="https://kit.fontawesome.com/8aa89b4061.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="c:\Users\Dell\Downloads\KoKo crush.png" class="Logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </div>
+
+</section>                                                                                                            
+
+    <section id="newsletter" >
+        <div class="newstext">
+            <h4>#shop</h4>
+            
+        </div>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+<tbody>
+    <tr>
+        <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+        <td><img src="https://i.pinimg.com/736x/ad/74/85/ad74853b5f1ca037e7290559be4d1d8a.jpg" width="70px"></td>
+        <td>Pistachio Almond</td>
+        <td>Rs. 250</td>
+        <td><input type="number" value="1"></td>
+        <td>Rs. 250</td>
+    </tr>
+    <tr>
+        <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+        <td><img src="https://i.pinimg.com/1200x/ea/09/52/ea09520906bacc31207421bf22311108.jpg" width="70px"></td>
+        <td>Dubai Kunafa</td>
+        <td>Rs. 500</td>
+        <td><input type="number" value="1"></td>
+        <td>Rs. 500</td>
+    </tr>
+    <tr>
+        <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+        <td><img src="https://i.pinimg.com/1200x/3e/f0/01/3ef0015892c228226e11bda7d83f6b61.jpg" width="70px"></td>
+        <td>Fruit Remix</td>
+        <td>Rs. 400</td>
+        <td><input type="number" value="1"></td>
+        <td>Rs. 400</td>
+    </tr>
+</tbody>
+        </table>
+    </section>
+<section id="subtotal" class="section-p1">
+    <div class="cart-details">
+        <h2>Cart Total</h2>
+        <div class="details">
+            <span>Subtotal</span>
+            <span>Rs. 1150</span>
+        </div>
+        <div class="details">
+            <span>Shipping</span>
+            <span>Rs. 50</span>
+        </div>
+        <div class="details">
+            <span>Total</span>
+            <span>Rs. 1200</span>
+        </div>
+    </div>
+    <div class="cart-actions">
+        <button class="btn">Proceed to Checkout</button>
+    </div>
+
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="c:\Users\Dell\Downloads\KoKo crush.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Madhyapur Thimi, Bhaktapur</p>
+        <p><strong>Phone:</strong> 9808427735</p>
+        <p><strong>Email:</strong> Kokocrush7@gmail.com</p>
+        <div class="follow">    
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+        <div class ="col install">
+            <h4>Secured Payment</h4>
+            <p>We accept all major credit cards and online payment methods.</p>
+        <img src="c:\Users\Dell\Downloads\payment.png">
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    <style>
+    /* Responsive styles */
+    @media (max-width: 1024px) {
+        #contact-details .map iframe {
+            width: 100%;
+            height: 350px;
+        }
+        #navbar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .details, .contact-text {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #header {
+            flex-direction: column;
+            align-items: center;
+        }
+        #navbar li {
+            margin: 10px 0;
+        }
+        #contact-details {
+            flex-direction: column;
+        }
+        .details, .contact-text {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .map iframe {
+            height: 250px;
+        }
+        #form-details form {
+            width: 100%;
+            padding: 10px;
+        }
+        footer .col, footer .install {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        body {
+            font-size: 15px;
+        }
+        #header img.logo, footer img.logo {
+            width: 120px;
+        }
+        .map iframe {
+            height: 180px;
+        }
+        #form-details input, #form-details textarea, #form-details button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #newsletter .form input, #newsletter .form button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+    </style>
+
+
+        
+        </div>
+</footer>
+
+<script src="script.js"></script>
+
+
+    <style>
+    /* Responsive styles */
+    @media (max-width: 1024px) {
+        #navbar {
+            font-size: 1rem;
+        }
+        .pro-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    </style>
+</body>
+   
+</html>

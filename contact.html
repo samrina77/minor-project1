@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koko Crush</title>
+<script src="https://kit.fontawesome.com/8aa89b4061.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="c:\Users\Dell\Downloads\KoKo crush.png" class="Logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </div>
+
+</section>                                                                                                            
+
+    <section id="newsletter" >
+        <div class="newstext">
+            <h4>#Let's Talk</h4>
+            <p>LEAVE A MESSAGE, WE LOVE TO HEAR FROM YOU.<span>..............................................................................................................................................................</span></p>
+        </div>
+    </section>
+<section id="contact-details" class="section-p1">
+    <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>Visit our store in person</h2>
+        <h3>Head Office</h3>
+        <div>
+            <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Madhyapur Thimi, Bhaktapur</p>
+                   
+
+            </li>
+            <li>
+                <i class="fa-solid fa-envelope"></i>
+                <p>Kokocrush7@gmail.com</p>
+                
+            </li>
+            <li>
+                <i class="fa-solid fa-phone"></i>
+                <p>9808427735</p>
+                
+
+            </li>
+            <li>
+                <i class="fa-solid fa-clock"></i>
+                <p>9.00am to 6.00pm</p>
+                  
+
+            </li>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28264.318359937883!2d85.37892260000004!3d27.6851649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1a419f80aa67%3A0x288ab8841508315f!2sMadhyapur%20Thimi!5e0!3m2!1sen!2snp!4v1753437116360!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="contact-text">
+        <h2>Contact Us</h2>
+        <p>We value your feedback and inquiries. Whether you have questions about our products, need assistance with an order, or just want to share your thoughts, we're here to help. Reach out to us through the form below or contact us via email or phone.</p>
+    </div>
+</div>
+<section id="form-details">
+    <form action="" >
+        <span>Leave US A MESSAGE</span>
+        <h2>We'd love to hear from you!</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <input type="text" placeholder="Subject">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <button>Submit</button>
+        </form>
+        </section>
+
+<section id ="newsletter" class="section-p2">
+    <div class="newstext">
+        <h4>Sign In </h4>
+        <p>Stay updated with our latest products and offers.</p>
+    </div>
+    <div class="form">
+        <input type="email" placeholder="Enter your email" required>
+        <button class="normal">Sign In</button>
+    </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="c:\Users\Dell\Downloads\KoKo crush.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Madhyapur Thimi, Bhaktapur</p>
+        <p><strong>Phone:</strong> 9808427735</p>
+        <p><strong>Email:</strong> Kokocrush7@gmail.com</p>
+        <div class="follow">    
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+        <div class ="col install">
+            <h4>Secured Payment</h4>
+            <p>We accept all major credit cards and online payment methods.</p>
+        <img src="c:\Users\Dell\Downloads\payment.png">
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    <style>
+    /* Responsive styles */
+    @media (max-width: 1024px) {
+        #contact-details .map iframe {
+            width: 100%;
+            height: 350px;
+        }
+        #navbar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .details, .contact-text {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #header {
+            flex-direction: column;
+            align-items: center;
+        }
+        #navbar li {
+            margin: 10px 0;
+        }
+        #contact-details {
+            flex-direction: column;
+        }
+        .details, .contact-text {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .map iframe {
+            height: 250px;
+        }
+        #form-details form {
+            width: 100%;
+            padding: 10px;
+        }
+        footer .col, footer .install {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        body {
+            font-size: 15px;
+        }
+        #header img.logo, footer img.logo {
+            width: 120px;
+        }
+        .map iframe {
+            height: 180px;
+        }
+        #form-details input, #form-details textarea, #form-details button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #newsletter .form input, #newsletter .form button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+    </style>
+
+
+        
+        </div>
+</footer>
+
+<script src="script.js"></script>
+       
+        <style>
+    /* Responsive styles */
+    @media (max-width: 1024px) {
+        #contact-details .map iframe {
+            width: 100%;
+            height: 350px;
+        }
+        #navbar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .details, .contact-text {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    </style>
+</body>
+   
+</html>
